@@ -14,11 +14,12 @@
    64    319  git commit -a -m "tercera prueba..."
    65    320  git status
    66    321  git push origin master
-   67    322  git remote add origin git://github.com/tiposaurio/mis-archivos.git
+   67    322  git remote add origin 
+                                git://github.com/tiposaurio/mis-archivos.git
    68    323  git status
    69    324  git pull origin master
    70    325  git push origin master
-   71    326  cd home/lelis/proyecto/
+   71    326      cd home/lelis/proyecto/
    72    327  ls
    73    328  cd home/lelis/proyecto/
    74    329  ls
