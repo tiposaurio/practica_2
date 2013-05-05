@@ -1,0 +1,500 @@
+   51    306  : : no se encontró la orden
+   52    307  root@guido:/etc/network#
+   53    308  git remote add origin git://github.com/tiposaurio/mis-archivos.git
+   54    309  git push origin master
+   55    310  git config --global user.name "tiposaurio"
+   56    311  git push origin master
+   57    312  git config --global user.name "guido"
+   58    313  git config --global user.email tiposaurio@gmail.com
+   59    314  git push origin master
+   60    315  git config --global user.name "lelis"
+   61    316  git config --global user.email tiposaurio@gmail.com
+   62    317  git push origin master
+   63    318  git status
+   64    319  git commit -a -m "tercera prueba..."
+   65    320  git status
+   66    321  git push origin master
+   67    322  git remote add origin git://github.com/tiposaurio/mis-archivos.git
+   68    323  git status
+   69    324  git pull origin master
+   70    325  git push origin master
+   71    326  cd home/lelis/proyecto/
+   72    327  ls
+   73    328  cd home/lelis/proyecto/
+   74    329  ls
+   75    330  cd home/lelis/proyecto/
+   76    331  cd /home/lelis/proyecto/
+   77    332  ls
+   78    333  history
+   79    334  history | more
+   80    335  cd /etc/network/
+   81    336  ls
+   82    337  git init
+   83    338  git status
+   84    339  git add interfaces
+   85    340  git commit -a -m "priemra practica..."
+   86    341  git status
+   87    342  ssh-keygen
+   88    343  cat /root.ssh/id_rsa.pub
+   89    344  cat /root/.ssh/id_rsa.pub
+   90    345  git remote add origin git@github.com:tiposaurio/mis-archivos.git
+   91    346  git remote -v
+   92    347  git pull origin master
+   93    348  git config --global user.name "tiposaurio"
+   94    349  git config --global user.email tiposaurio@gmail.com
+   95    350  git pull origin master
+   96    351  git status
+   97    352  ls
+   98    353  git add interfaces.save
+   99    354  git status
+  100    355  git commit -a -m "mi segunda prueba..."
+  101    356  git status
+  102    357  interfaces
+  103    358  nano interfaces
+  104    359  cd ..
+  105    360  cd ..
+  106    361  /etc/init.d/networking restart
+  107    362  nano /etc/network/interfaces
+  108    363  /etc/init.d/networking restart
+  109    364  ping 8.8.8.8
+  110    365  ping 192.168.1.1
+  111    366  nano /etc/network/interfaces
+  112    367  /etc/init.d/networking stop
+  113    368  /etc/init.d/networking start
+  114    369  route -n
+  115    370  ping 192.168.1.1
+  116    371  ifconfig
+  117    372  ifconfig eth1
+  118    373  ifconfig
+  119    374  nano /etc/network/interfaces
+  120    375  /etc/init.d/networking restart
+  121    376  ifconfig eth1
+  122    377  route -n
+  123    378  ping 8.8.8.8
+  124    379  cd /etc/network/
+  125    380  ping 8.8.8.8
+  126    381  nano /etc/network/interfaces
+  127    382  /etc/init.d/networking stop
+  128    383  /etc/init.d/networking start
+  129    384  ping 8.8.8.8
+  130    385  nano /etc/init.d/firewall.sh
+  131    386  nano /etc/apt/sources.list
+  132    387  nano /etc/network/interfaces
+  133    388  /etc/init.d/networking stop
+  134    389  /etc/init.d/networking start
+  135    390  route -n
+  136    391  nano /etc/init.d/firewall.sh
+  137    392  chmod 777 /etc/init.d/firewall.sh
+  138    393  /etc/init.d/firewall.sh
+  139    394  ping 8.8.8.8
+  140    395  route -n
+  141    396  ping 192.168.50.101
+  142    397  nano /etc/network/interfaces
+  143    398  ping 192.168.50.101
+  144    399  ping 192.168.50.101
+  145    400  ping 192.168.50.101
+  146    401  ping 192.168.50.101
+  147    402  ping 8.8.8.8
+  148    403  ping 8.8.8.8
+  149    404  ping 192.168.50.101
+  150    405  ping 192.168.50.101
+  151    406  scp /etc/init.d/firewall.sh root@192.168.50.169 /etc/init.d/
+  152    407  scp /etc/init.d/firewall.sh root@192.168.50.169 /etc/init.d/
+  153    408  scp /etc/init.d/firewall.sh  root@192.168.50.169 /etc/init.d/
+  154    409  apt-get install apache2
+  155    410  /etc/init.d/apache2  start
+  156    411  apt-get install php5
+  157    412  apt-get install mysql-server
+  158    413  apt-get install phpmyadmin
+  159    414  cd /var/www/
+  160    415  wget 192.168.50.16
+  161    416  wget 192.168.50.16/wp.zip
+  162    417  wget 192.168.50.16/wp.zip
+  163    418  wget 192.168.50.16/wp.zip
+  164    419  wget 192.168.50.16/wp.zip
+  165    420  wget 192.168.50.16/wp.zip
+  166    421  wget 192.168.50.16/wp.zip
+  167    422  wget 192.168.50.16/wp.zip
+  168    423  wget 192.168.50.16/wp.zip
+  169    424  wget 192.168.50.16/wp.zip
+  170    425  wget 192.168.50.16/wp.zip
+  171    426  wget 192.168.50.16/wp.zip
+  172    
+  173    428  wget 192.168.50.16/wp.
+  174    429  wget 192.168.50.16/wp.zip
+  175    430  wget 192.168.50.16/wp.zip
+  176    431  wget 192
+  177    432  wget 192.168.50.16/
+  178    433  wget 192.168.50.
+  179    434  history
+  180  root@guido:
+  181      1  cd '
+  182      2  cd ..
+  183      3  cd ..
+  184      4  nano /etc/network/interfaces
+  185      5  cd ..
+  186      6  nano /etc/network/int
+  187      7  nano /etc/network/int
+  188      8  cd ..
+  189      9  nano /etc/netw
+  190     10  cd ..
+  191     11  nano /etc/netwo
+  192     12  /etc/init.d/networking s
+  193     13  /etc/init.d/networking start
+  194     14  route -n
+  195     15  ping 8.8.8.8
+  196   
+  197     17  nano /etc/network/interfaces
+  198     18  nano /etc/network/interfaces
+  199     19  /etc/init.d/networking stop
+  200    
+  201     21  route -n
+  202     22  ping 192.128.1.35
+  203     
+  204   history | more 
+  205  more -/.bash_history
+  206  more -/.bash_history
+  207  ifconfig
+  208  ifconfig eth1
+  209  nano /etc/network/interfaces
+  210  /etc/init.d/networking  stop
+  211  /etc/init.d/networking  start
+  212  ping 192.168.1.1
+  213  ping 192.168.1.1
+  214  route -n
+  215  ping 192.168.1.1
+  216  /etc/init.d/networking  stop
+  217  /etc/init.d/networking  start
+  218  ping 8.8.8.8
+  219  ping 192.168.1.1
+  220  ping 192.168.1.1
+  221  nano /etc/network/interfaces
+  222  /etc/init.d/networking  stop
+  223  nano /etc/network/interfaces
+  224  ifconfig | more
+  225  ifconfig 
+  226  ifconfig eth1
+  227  ifconfig eth5
+  228  ifconfig eth5 up
+  229  ifconfig eth6 up
+  230  /etc/init.d/networking  stop
+  231  /etc/init.d/networking  staert
+  232  /etc/init.d/networking  start
+  233  ping 192.168.1.1
+  234  ping 192.168.1.1
+  235  ping 192.168.1.1
+  236  /etc/init.d/networking  restart
+  237  ping 192.168.1.1
+  238  route -n
+  239  ping 192.168.1.1
+  240  ifconfig eth1
+  241  ifconfig 
+  242  ifconfig | more
+  243  ifconfig 
+  244  ifconfig 192.168.1.1
+  245  ifconfig eth1 up
+  246  /etc/init.d/networking  restart
+  247  /etc/init.d/networking  stop
+  248  /etc/init.d/networking  stop
+  249  ping 192.168.1.1
+  250  /etc/init.d/networking  restart
+  251  /etc/init.d/networking  stop
+  252  /etc/init.d/networking  stop
+  253  /etc/init.d/networking  start
+  254  ping 192.168.1.1
+  255  nano /etc/network/interfaces
+  256  nano /etc/network/interfaces
+  257  /etc/init.d/networking  stop
+  258  nano /etc/network/interfaces
+  259  /etc/init.d/networking  stop
+  260  /etc/init.d/networking  start
+  261  ping 192.168.1.1
+  262  ping 8.8.8.8
+  263  nano /etc/init.d/routeo.sh
+  264  chmod 777 /etc/init.d/routeo.sh 
+  265  /etc/init.d/
+  266  chmod 777 /etc/init.d/firewall.sh 
+  267  /etc/init.d/firewall.sh 
+  268  nano /etc/network/interfaces
+  269  ping 192.168.1.1
+  270  ping 8.8.8.8
+  271  ping 192.168.27.2
+  272  ifconfig eth1
+  273  ping 192.168.1.34
+  274  ping 192.168.56.1
+  275  w3m google.com
+  276  cat /root/.ssh/id_rsa.pub 
+  277  cd /var/www/
+  278  ls
+  279  nano index.html 
+  280  ls
+  281  unzip wp.zip
+  282  apt-get install unzip
+  283  unzip wp.zip
+  284  wget https:/wordpress-3.5.1-es_ES.zip
+  285  wget https://wordpress.org/wordpress-3.5.1-es_ES.zip
+  286  ping 8.8.8.8
+  287  wget http:/wordpress.org/wordpress-3.5.1-es_ES.zip
+  288  wget https:/wordpress.org/wordpress-3.5.1-es_ES.zip
+  289  wget https://wordpress.org/wordpress-3.5.1-es_ES.zip
+  290  wget https://www.wordpress.org/wordpress-3.5.1-es_ES.zip
+  291  ls
+  292  unzip wordpress-3.5.1-es_ES.zip 
+  293  wget https://www.wordpress.org/wordpress-3.5.1-es_ES.zip
+  294  ls
+  295  unzip wordpress-3.5.1-es_ES.zip 
+  296  apt-get install unzip
+  297  unzip wordpress-3.5.1-es_ES.zip 
+  298  unzip wordpress-3.5.1-es_ES.zip.1 
+  299  cd wordpress-3.5.1-es_ES
+  300  ls -la
+  301  cd ..
+  302  cd ..
+  303  git init
+  304  cd /var/www/
+  305  git init
+  306  cd ..
+  307  cd ..
+  308  cd /etc/network/git
+  309  cd /etc/network/
+  310  ls
+  311  cd ..
+  312  cd ..
+  313  apt-get install git
+  314  cd /var/www/
+  315  git init .
+  316  apt-get install git
+  317  git init 
+  318  touch baja.txt
+  319  ls
+  320  git add baja.txt
+  321  git commit -a -m "esto es para bajar mi proyect"
+  322  git push origin maaster
+  323  git pull origin master
+  324  git push origin master
+  325  git remote add origin git@github.com:tiposaurio/mejorandola.git
+  326  git config --global user.name "tiposaurio"
+  327  git config --global user.email tiposaurio@gmail.com
+  328  git pull origin master
+  329  git push origin master
+  330  git add baja.txt
+  331  git commit -a -m "esto es para bajar mi proyect"
+  332  git status
+  333  nano index.html 
+  334  git add index.html 
+  335  git commit -a -m "esto es para bajar mi proyect0o0"
+  336  git status
+  337  nano index.html 
+  338  cat /root/.ssh/id_rsa.pub 
+  339  git remote add origin git@github.com:tiposaurio/mejorandola.git
+  340  git pull origin master
+  341  git push origin master
+  342  git pull origin master
+  343  git push origin master
+  344  ls
+  345  nano estilos.css 
+  346  touch baja.txt
+  347  cd ..
+  348  /home/ls
+  349  cd /home/
+  350  ls
+  351  cd lelis
+  352  nano mensaje.sh
+  353  echo "xcfvy"
+  354  chmod 777 mensaje.sh 
+  355  cd
+  356  nano /etc/crontab 
+  357  /etc/init.d/cron stop
+  358  nano /etc/crontab 
+  359  /etc/init.d/cron stop
+  360  /etc/init.d/cron start
+  361  date
+  362  nano /etc/crontab 
+  363  /etc/init.d/cron restart
+  364  nano /etc/crontab 
+  365  /etc/init.d/cron restart
+  366  date
+  367  nano /etc/crontab 
+  368  /etc/init.d/cron restart
+  369  nano /etc/crontab 
+  370  /etc/init.d/cron restart
+  371  nano /etc/crontab 
+  372  /etc/init.d/cron restart
+  373  nano /etc/crontab 
+  374  /etc/init.d/cron restart
+  375  /etc/init.d/cron stop
+  376  /etc/init.d/cron start
+  377  nano /etc/crontab 
+  378  cd /home/lelis/
+  379  ls
+  380  nano mensaje.sh 
+  381  ./mensaje.sh 
+  382  cd
+  383  cd ..
+  384  /etc/init.d/cron stop
+  385  /etc/init.d/cron start
+  386  date
+  387  crontab -e
+  388  nano /etc/crontab 
+  389  nano /etc/crontab 
+  390  nano /etc/cron.d
+  391  nano /etc/cron
+  392  nano /etc/cron.
+  393  nano /etc/cro
+  394  nano /etc/cron.daily/
+  395  crontab -e
+  396  servce cron restart
+  397  service cron restart
+  398  crontab -e
+  399  cd /var/log/
+  400  ls
+  401  nano mi-cron.log
+  402  ls
+  403  crontab -e
+  404  crontab -e
+  405  service cron restart
+  406  date
+  407  crontab -e
+  408  service cron restart
+  409  cd
+  410  date
+  411  date
+  412  crontab -e
+  413  service cron restart
+  414  crontab -e
+  415  service cron restart
+  416  chmod +x /root/bin/mi-cron.log
+  417  /etc/init.d/cron status
+  418  nano /etc/crontab 
+  419  /etc/init.d/cron resatart
+  420  /etc/init.d/cron restart
+  421  crontab -e
+  422  /etc/init.d/cron restart
+  423  nano /etc/crontab 
+  424  /etc/init.d/cron restart
+  425  nano /etc/crontab 
+  426  /etc/init.d/cron restart
+  427  crontab -e
+  428  /etc/init.d/cron restart
+  429  crontab -e
+  430  crontab -e
+  431  nano estilos.css 
+  432  /etc/init.d/cron stop
+  433  /etc/init.d/cron start
+  434  crontab -e
+  435  crontab -e
+  436  /etc/init.d/cron restart
+  437  cd /home/lelis/
+  438  nano mensaje.sh 
+  439  ./mensaje.sh 
+  440  /etc/init.d/cron restart
+  441  cd
+  442  crontab -l
+  443  crontab -e
+  444  /etc/init.d/cron restart
+  445  /etc/init.d/cron stop
+  446  /etc/init.d/cron start
+  447  update-rc.d cron defaults 
+  448  crontab -e
+  449  /etc/init.d/cron stop
+  450  /etc/init.d/cron start
+  451  crontab -e
+  452  update-rc.d cron defaults 
+  453  crontab -e
+  454  /etc/init.d/cron restart
+  455  crontab -e
+  456  crontab -e
+  457  cd /home/lelis/mensaje.sh
+  458  cd /home/lelis/
+  459  ls
+  460  nano mensaje.sh 
+  461  cd
+  462  cd /var/www/
+  463  ls
+  464  nano index.html 
+  465  cd
+  466  crontab  -e
+  467  /etc/init.d/cron stop
+  468  /etc/init.d/cron start
+  469  crontab  -e
+  470  cd /var/www
+  471  ls
+  472  wget 192.168.50.16/wp.zip
+  473  wget 192.168.50.16/wp.zip
+  474  wget 192.168.50.16/wp.zip
+  475  cd
+  476  crontab -e
+  477  cd /home/
+  478  ls
+  479  cd /lelis/
+  480  cd lelis
+  481  nano mensaje.sh 
+  482  crontab  -E
+  483  crontab  -e
+  484  crontab -e
+  485  ls
+  486  nano proyecto/
+  487  nano mensaje.sh 
+  488  ls
+  489  crontab -e
+  490  cd ..
+  491  cd /etc/init.d/
+  492  ls
+  493  git init 
+  494  git config --global user.name "tiposaurio"
+  495  git config --global user.email tiposaurio@gmail.com
+  496  git status
+  497  git remote add origin git@github.com:tiposaurio/mis-archivos.git
+  498  git add firewall.sh
+  499  git status
+  500  git commit -a -m "my firewall"
+  501  git pull origin master
+  502  git push origin master
+  503  ls
+  504  git add routeo.sh
+  505  git commit -a -m "mi routeo me falata relacionar..git add routeo.sh"
+  506  git push origin master
+  507  cd
+  508  cd /home/lelis
+  509  ls
+  510  git init
+  511  status
+  512  git status
+  513  git add mensaje.sh
+  514  git status
+  515  git commit -m "mensaje-cron"
+  516  git status
+  517  git commit -a -m "mensaje-cron"
+  518  git push origin master
+  519  git pull origin master
+  520  git push origin master
+  521  git config --global user.name "tiposaurio"
+  522  git config --global user.email tiposaurio@gmail.com
+  523  git clone git@github.com:tiposaurio/practica_2.git
+  524  git remote add origin git@github.com:tiposaurio/practica_2.git
+  525  git add mensaje.sh
+  526  git commit -a -m ".....mensaje"
+  527  git add mensaje.sh
+  528  git status
+  529  git commit -a -m ".....mensaje"
+  530  git push origin master
+  531  git pull origin master
+  532  git config --global user.name "tiposaurio"
+  533  git config --global user.email tiposaurio@gmail.com
+  534  git add mensaje.sh
+  535  git commit -a -m ".....mensaje"
+  536  git add .
+  537* 
+  538  git commit -a -m ".....mensaje"
+  539  git status
+  540  git push origin master
+  541  git pull origin master
+  542  git status
+  543  git commit -a -m ".....mensaje"
+  544  git pull origin master
+  545* 
+  546  git config --global user.email tiposaurio@gmail.com
+  547  git pull origin master
+  548  git push origin master
+  549  history
+  550  history > historiaCom.txt
